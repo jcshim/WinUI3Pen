@@ -50,16 +50,16 @@
                 Label="Enable" Click="Button2_Click"/>
         <Border Grid.Column="1" Grid.Row="1" x:Name="colorPanel" Visibility="Visible">
              <ColorPicker  
-                ColorChanged="ColorPicker_ColorChanged"
-                ColorSpectrumShape="Ring"
-                IsMoreButtonVisible="False"
-                IsColorSliderVisible="True"
-                IsColorChannelTextInputVisible="True"
-                IsHexInputVisible="True"
-                IsAlphaEnabled="False"
-                IsAlphaSliderVisible="True"
-                IsAlphaTextInputVisible="True" />
+            ColorChanged="ColorPicker_ColorChanged"
+            ColorSpectrumShape="Ring"
+            IsMoreButtonVisible="False"
+            IsColorSliderVisible="True"
+            IsColorChannelTextInputVisible="True"
+            IsHexInputVisible="True"
+            IsAlphaEnabled="False"
+            IsAlphaSliderVisible="True"
+            IsAlphaTextInputVisible="True" />
         </Border>
     </Grid>
-    
+
 </Window>
